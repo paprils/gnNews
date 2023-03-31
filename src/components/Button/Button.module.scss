@@ -1,0 +1,23 @@
+.button {
+  height: 45px;
+  border: 1px solid var(--gn-color-accent);
+  background: var(--gn-background-primary);
+  border-radius: 23px;
+  padding: 20px 50px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s;
+  font-family: inherit;
+  font-size: 16px;
+
+  &:hover {
+    background: var(--gn-background-secondary);
+  }
+
+  @media (max-width: 599px) {
+    padding: 20px;
+    height: 35px;
+  }
+}

@@ -1,0 +1,32 @@
+.homePage {
+  padding: 50px;
+}
+
+.homePage__countriesList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  
+  @media (max-width: 899px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+}
+
+.homePage__countriesList__country {
+  cursor: pointer;
+  transition: color 0.3s;
+  margin: 10px 0;
+
+  &:hover {
+    color: var(--gn-color-accent);
+  }
+
+  @media (max-width: 899px) {
+    margin: 0;
+  }
+}

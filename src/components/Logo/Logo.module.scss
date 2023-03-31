@@ -1,0 +1,16 @@
+.logo {
+  font-size: 30px;
+  cursor: pointer;
+
+  @media (max-width: 599px) {
+   font-size: 22px;
+  }
+}
+
+.logo__bold {
+  font-weight: 700;
+}
+
+.logo__light {
+  font-weight: 300;
+}
